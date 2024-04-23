@@ -20,10 +20,9 @@
 
   .advantages {
     display: flex;
-    padding-right: 0!important;
     .advantages_cards {
       margin-top: 40px;
-      max-width: 450px;
+      max-width: 477px;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
@@ -49,6 +48,14 @@
           color: #878787;
         }
       }
+    }
+    .advantages_logo{
+      width: calc(100% - 477px);
+      max-height: 305px;
+      max-width: 800px;
+      margin-top: -40px;
+      position: absolute;
+      right: 0;
     }
   }
 }
