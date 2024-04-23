@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wash_mashine/static/css/main.42962df6.css",
-    "main.js": "/wash_mashine/static/js/main.c2dbaf86.js",
+    "main.js": "/wash_mashine/static/js/main.e4921f49.js",
     "static/media/advantages_logo.png": "/wash_mashine/static/media/advantages_logo.1aaf11e267094e9ab6ff.png",
     "index.html": "/wash_mashine/index.html",
     "main.42962df6.css.map": "/wash_mashine/static/css/main.42962df6.css.map",
-    "main.c2dbaf86.js.map": "/wash_mashine/static/js/main.c2dbaf86.js.map"
+    "main.e4921f49.js.map": "/wash_mashine/static/js/main.e4921f49.js.map"
   },
   "entrypoints": [
     "static/css/main.42962df6.css",
-    "static/js/main.c2dbaf86.js"
+    "static/js/main.e4921f49.js"
   ]
 }
