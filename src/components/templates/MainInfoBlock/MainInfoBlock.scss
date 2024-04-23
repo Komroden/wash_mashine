@@ -1,0 +1,54 @@
+.main_info_block {
+  margin-top: 68px;
+
+  .title_block {
+    .title {
+      font-size: 92px;
+      font-weight: 700;
+      line-height: 115px;
+    }
+
+    .subtitle {
+      font-size: 72px;
+      font-weight: 700;
+      line-height: 90px;
+      text-align: left;
+
+      color: #CDCDCD;
+    }
+  }
+
+  .advantages {
+    display: flex;
+    padding-right: 0!important;
+    .advantages_cards {
+      margin-top: 40px;
+      max-width: 450px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 25px;
+
+      .advantage_card {
+        max-width: 226px;
+
+        .advantage_card_number {
+          padding: 4px 8px;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 14px;
+          border: 1px solid #000000;
+          border-radius: 50%;
+        }
+
+        .advantage_card_info {
+          padding-top: 10px;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 16px;
+          color: #878787;
+        }
+      }
+    }
+  }
+}

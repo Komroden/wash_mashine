@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "label": "Товары",
+    "url": "#some",
+    "type": "primary"
+  },
+  {
+    "id": "2",
+    "label": "Подбор",
+    "url": "#some",
+    "type": "primary"
+  },
+  {
+    "id": "3",
+    "label": "Отзывы",
+    "url": "#some",
+    "type": "primary"
+  },
+  {
+    "id": "4",
+    "label": "Контакты",
+    "url": "#some",
+    "type": "primary"
+  }
+]
