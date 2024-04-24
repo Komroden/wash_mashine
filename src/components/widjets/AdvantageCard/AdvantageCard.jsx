@@ -12,6 +12,6 @@ export function AdvantageCard({ number, title }) {
     )
 }
 AdvantageCard.propTypes = {
-    number: PropTypes.string,
+    number: PropTypes.number,
     title: PropTypes.string,
 }

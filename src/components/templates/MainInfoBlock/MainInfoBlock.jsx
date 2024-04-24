@@ -5,6 +5,7 @@ import { map } from 'lodash'
 import advantagesCards from '../../../mock/advantagesCards.json'
 import advantagesLogo from '../../../mock/img/advantages_logo.png'
 import { AdvantageCard } from '../../widjets/AdvantageCard/AdvantageCard'
+import { SimpleInfoBlock } from '../../widjets/SimpleInfoBlock/SimpleInfoBlock'
 
 export function MainInfoBlock({ title, subtitle }) {
     return (
@@ -15,10 +16,19 @@ export function MainInfoBlock({ title, subtitle }) {
             </div>
             <div className="advantages">
                 <div className="advantages_cards">
-                    {map(advantagesCards, el => <AdvantageCard key={el.id} title={el.title} number={el.id} />) }
+                    {map(
+                        advantagesCards,
+                        (el, index) => <AdvantageCard key={el.id} title={el.title} number={index} />,
+                    ) }
                 </div>
                 <img className="advantages_logo" alt="advantages_logo" src={advantagesLogo} />
             </div>
+            <SimpleInfoBlock
+                withButton
+                title="Почему мы"
+                className="why_we"
+                subtitle="Выполним качественно самый сложный ремонт, даже если другие сервисы вам отказали"
+            />
         </article>
     )
 }
