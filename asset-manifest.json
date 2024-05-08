@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/wash_mashine/static/css/main.3d93566e.css",
-    "main.js": "/wash_mashine/static/js/main.cecaa277.js",
+    "main.css": "/wash_mashine/static/css/main.b00887f4.css",
+    "main.js": "/wash_mashine/static/js/main.644cb541.js",
+    "static/media/service_card_forth.png": "/wash_mashine/static/media/service_card_forth.b3a83d174527d0b8abf0.png",
     "static/media/advantages_logo.png": "/wash_mashine/static/media/advantages_logo.1aaf11e267094e9ab6ff.png",
+    "static/media/service_card_first.png": "/wash_mashine/static/media/service_card_first.a155769a25f36a940f08.png",
+    "static/media/service_card_second.png": "/wash_mashine/static/media/service_card_second.4d8bc11241fb089a7799.png",
+    "static/media/service_card_third.png": "/wash_mashine/static/media/service_card_third.e1ab69cfbebc1e678149.png",
     "index.html": "/wash_mashine/index.html",
-    "main.3d93566e.css.map": "/wash_mashine/static/css/main.3d93566e.css.map",
-    "main.cecaa277.js.map": "/wash_mashine/static/js/main.cecaa277.js.map"
+    "main.b00887f4.css.map": "/wash_mashine/static/css/main.b00887f4.css.map",
+    "main.644cb541.js.map": "/wash_mashine/static/js/main.644cb541.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d93566e.css",
-    "static/js/main.cecaa277.js"
+    "static/css/main.b00887f4.css",
+    "static/js/main.644cb541.js"
   ]
 }
