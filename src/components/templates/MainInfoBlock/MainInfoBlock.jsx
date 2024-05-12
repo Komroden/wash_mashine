@@ -18,7 +18,7 @@ export function MainInfoBlock({ title, subtitle }) {
                 <div className="advantages_cards">
                     {map(
                         advantagesCards,
-                        (el, index) => <AdvantageCard key={el.id} title={el.title} number={index} />,
+                        (el, index) => <AdvantageCard key={el.id} title={el.title} number={index + 1} />,
                     ) }
                 </div>
                 <img className="advantages_logo" alt="advantages_logo" src={advantagesLogo} />

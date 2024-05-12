@@ -8,7 +8,7 @@ import { LinkButton } from '../../controls/LinkButton/LinkButton'
 export function OurServiceBlock({ title }) {
     return (
         <article className="our_service_block">
-            <h3 className="title">{title}</h3>
+            <h3 className="simple_title">{title}</h3>
             <InfoCards cards={cards} />
             <LinkButton className="trade_in_button" label="Trade-in" url="/some" />
             <svg width="26" className="trade_in_arrow" height="8" viewBox="0 0 26 8" xmlns="http://www.w3.org/2000/svg">
