@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wash_mashine/static/css/main.6b28c481.css",
+    "main.css": "/wash_mashine/static/css/main.a1770c3b.css",
     "main.js": "/wash_mashine/static/js/main.7139b1cd.js",
     "static/media/review_img_3.png": "/wash_mashine/static/media/review_img_3.71303669ceb17d561bde.png",
     "static/media/review_img_2.png": "/wash_mashine/static/media/review_img_2.0914ad65de09f28a42e4.png",
@@ -12,11 +12,11 @@
     "static/media/service_card_second.png": "/wash_mashine/static/media/service_card_second.4d8bc11241fb089a7799.png",
     "static/media/service_card_third.png": "/wash_mashine/static/media/service_card_third.e1ab69cfbebc1e678149.png",
     "index.html": "/wash_mashine/index.html",
-    "main.6b28c481.css.map": "/wash_mashine/static/css/main.6b28c481.css.map",
+    "main.a1770c3b.css.map": "/wash_mashine/static/css/main.a1770c3b.css.map",
     "main.7139b1cd.js.map": "/wash_mashine/static/js/main.7139b1cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b28c481.css",
+    "static/css/main.a1770c3b.css",
     "static/js/main.7139b1cd.js"
   ]
 }
