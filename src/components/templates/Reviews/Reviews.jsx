@@ -12,6 +12,7 @@ export function Reviews({ title, reviews }) {
                 <Carousel slidesToShow={3} adaptiveHeight arrows>
                     {reviews.map(el => (
                         <ReviewItem
+                            id={el.id}
                             key={el.id}
                             img={el.img}
                             date={el.date}
