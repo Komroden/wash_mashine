@@ -2,11 +2,13 @@ import React from 'react'
 
 import { Header } from '../../components/templates/Header/Header'
 import headerLinks from '../../mock/headerLinks.json'
+import footerLinks from '../../mock/footerLinks.json'
 import advantagesCards from '../../mock/orderProcessCards.json'
 import { MainInfoBlock } from '../../components/templates/MainInfoBlock/MainInfoBlock'
 import { OurServiceBlock } from '../../components/templates/OurServiceBlock/OurServiceBlock'
 import { OrderProcessBlock } from '../../components/templates/OrderProcessBlock/OrderProcessBlock'
 import { FeedbackBlock } from '../../components/templates/FeedbackBlock/FeedbackBlock'
+import { Footer } from '../../components/templates/Footer/Footer'
 
 function App() {
     return (
@@ -16,6 +18,7 @@ function App() {
             <OurServiceBlock title="Наши товары" />
             <OrderProcessBlock title="Как проходит подбор" cards={advantagesCards} />
             <FeedbackBlock title="Оставьте заявку и получите скидку 10% на первый ремонт" subtitle="Заполните форму ниже и мы свяжемся с вами в течение нескольких минут" />
+            <Footer links={footerLinks} title="iService" inn="756578457856" ogrnip="45786496596" orgName="ИП Название" />
         </div>
     )
 }

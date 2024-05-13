@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "label": "Устройства",
+    "url": "#some",
+    "type": "primary"
+  },
+  {
+    "id": "2",
+    "label": "Ремонт",
+    "url": "#some",
+    "type": "primary"
+  },
+  {
+    "id": "3",
+    "label": "Отзывы",
+    "url": "#some",
+    "type": "primary"
+  },
+  {
+    "id": "4",
+    "label": "Контакты",
+    "url": "#some",
+    "type": "primary"
+  }
+]
